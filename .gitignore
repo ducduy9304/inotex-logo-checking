@@ -16,7 +16,7 @@ wheels/
 *.ckpt
 
 # Generated output
-data_crop/_check/
+_check/
 results/
 inspections/
 
