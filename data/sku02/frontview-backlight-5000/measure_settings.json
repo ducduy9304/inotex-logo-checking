@@ -1,0 +1,58 @@
+{
+  "comment": "Boxes are the ink boxes on the first train/good crop, in px from the film's top-left corner. 'blocks' run left to right and form the chain left edge -> block -> gap -> ... -> right edge; 'free_blocks' are only measured to the left and top edges. Tolerances in mm on the label plane (camera/calibration.json). No date block: the film is often cut through the date on good labels. Boxes moved from archive/data_20261117 (sku02) by dx 10, dy 3 px on 2026-11-20. 2026-11-20: tolerance 3.0 mm (good labels move up to 2.7 mm to the film edges: the film is cut a little differently each time), gaps between letters 1.5 mm (good up to 1.03 mm).",
+  "blocks": [
+    {
+      "name": "b",
+      "left": 36,
+      "right": 325,
+      "top": 36,
+      "bottom": 438
+    },
+    {
+      "name": "e",
+      "left": 337,
+      "right": 630,
+      "top": 131,
+      "bottom": 439
+    },
+    {
+      "name": "t",
+      "left": 628,
+      "right": 860,
+      "top": 62,
+      "bottom": 440
+    },
+    {
+      "name": "w",
+      "left": 819,
+      "right": 1310,
+      "top": 60,
+      "bottom": 434
+    },
+    {
+      "name": "a",
+      "left": 1297,
+      "right": 1575,
+      "top": 129,
+      "bottom": 439
+    },
+    {
+      "name": "y",
+      "left": 1561,
+      "right": 1893,
+      "top": 134,
+      "bottom": 559
+    }
+  ],
+  "free_blocks": [],
+  "search_margin": 60,
+  "min_score": 0.5,
+  "tolerance_mm": 3.0,
+  "tolerances_mm": {
+    "gap_1_2": 1.5,
+    "gap_2_3": 1.5,
+    "gap_3_4": 1.5,
+    "gap_4_5": 1.5,
+    "gap_5_6": 1.5
+  }
+}

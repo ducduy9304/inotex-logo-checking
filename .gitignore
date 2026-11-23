@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Tool caches
+.ruff_cache/
+
+# Model checkpoints (~480 MB each, over GitHub's 100 MB limit): rebuild with anomaly_dino.py build
+*.ckpt
+
+# Generated output
+data_crop/_check/
+results/
+inspections/
+
+# Hikrobot SDK wrapper (symlink to the local MVS install)
+hik_sdk/MvImport

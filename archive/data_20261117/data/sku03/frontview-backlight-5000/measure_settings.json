@@ -1,0 +1,20 @@
+{
+  "comment": "Boxes are the ink boxes on the first train/good crop, in px from the film's top-left corner. 'blocks' run left to right and form the chain left edge -> block -> gap -> ... -> right edge; 'free_blocks' are only measured to the left and top edges. Tolerances in mm on the label plane (camera/calibration.json).",
+  "blocks": [
+    {"name": "logo", "left": 24, "right": 503, "top": 43, "bottom": 497},
+    {"name": "d", "left": 530, "right": 768, "top": 72, "bottom": 389},
+    {"name": "a", "left": 789, "right": 1015, "top": 168, "bottom": 390},
+    {"name": "f", "left": 1021, "right": 1186, "top": 70, "bottom": 457},
+    {"name": "a2", "left": 1167, "right": 1394, "top": 167, "bottom": 390},
+    {"name": "b", "left": 1411, "right": 1653, "top": 71, "bottom": 390},
+    {"name": "e", "left": 1675, "right": 1897, "top": 172, "bottom": 390},
+    {"name": "t", "left": 1898, "right": 2045, "top": 112, "bottom": 390}
+  ],
+  "free_blocks": [
+    {"name": "date", "left": 55, "right": 232, "top": 16, "bottom": 30}
+  ],
+  "search_margin": 60,
+  "min_score": 0.5,
+  "tolerance_mm": 1.0,
+  "tolerances_mm": {}
+}

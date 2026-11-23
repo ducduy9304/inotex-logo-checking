@@ -1,0 +1,16 @@
+{
+  "comment": "Boxes are the ink boxes on the first train/good crop, in px from the film's top-left corner. 'blocks' run left to right and form the chain left edge -> block -> gap -> ... -> right edge; 'free_blocks' are only measured to the left and top edges. Tolerances in mm on the label plane (camera/calibration.json). No date block: the film is often cut through the date on good labels.",
+  "blocks": [
+    {"name": "b", "left": 26, "right": 315, "top": 33, "bottom": 435},
+    {"name": "e", "left": 327, "right": 620, "top": 128, "bottom": 436},
+    {"name": "t", "left": 618, "right": 850, "top": 59, "bottom": 437},
+    {"name": "w", "left": 809, "right": 1300, "top": 57, "bottom": 431},
+    {"name": "a", "left": 1287, "right": 1565, "top": 126, "bottom": 436},
+    {"name": "y", "left": 1551, "right": 1883, "top": 131, "bottom": 556}
+  ],
+  "free_blocks": [],
+  "search_margin": 60,
+  "min_score": 0.5,
+  "tolerance_mm": 1.0,
+  "tolerances_mm": {}
+}
